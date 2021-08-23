@@ -9,7 +9,7 @@ import './css/App.css';
 
 ReactDOM.render(
   <Provider store={ store }>
-    <BrowserRouter>
+    <BrowserRouter basename="/trivia">
       <App />
     </BrowserRouter>
   </Provider>,
